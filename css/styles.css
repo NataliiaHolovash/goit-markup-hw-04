@@ -112,17 +112,17 @@ font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
 padding: 24px 0;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-studio {
 color: #404bbf; 
 position: relative;
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-content: "";
-width: 100%;
+
+
 }
 
-.header-link::after {
+.link-studio::after {
     content: "";
     display: block;
     width: 100%;
@@ -190,6 +190,7 @@ letter-spacing: 0.02em;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
  } 
 
  .hero title-btn {
@@ -324,10 +325,7 @@ margin-bottom: 72px;
 }
 
 .icon-link {
-    bottom: 28px;
-    left: 12px;
     fill: #f4f4fd;
-   
 }
 
 .link-icon {
@@ -341,7 +339,7 @@ margin-bottom: 72px;
     cursor: pointer;
 }
 
- .link-icon:focus 
+ .link-icon:focus, 
  .link-icon:hover {
     background-color: #404bbf; 
 }
@@ -437,6 +435,7 @@ margin-bottom: 72px;
 }
 
 .card-text {
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -471,6 +470,7 @@ letter-spacing: 0.02em;
 
 .footer-wrap {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-web{
@@ -508,11 +508,11 @@ max-width: 264px;
 }
 
 .footer-section-logo {
-   margin-left: 156px; 
+  margin-right: 120px;
 }
 
 .container-soc-med-link {
-    margin-left: 120px;
+   
    
 }
 
