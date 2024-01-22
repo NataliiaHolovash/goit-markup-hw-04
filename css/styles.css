@@ -179,7 +179,6 @@ letter-spacing: 0.02em;
 .hero {
     background:  #2E2F42;
     background-image: linear-gradient(
-       
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),
@@ -513,8 +512,12 @@ max-width: 264px;
 }
 
 .container-soc-med-link {
-   
-   
+    
+}
+
+.link-icon:focus,
+.link-icon:hover{
+    background-color: #31d0aa; 
 }
 
 .soc-med-title {
@@ -523,7 +526,7 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5; 
 letter-spacing: 0.02em;
-padding-bottom: 16px;
+margin-bottom: 16px;
 }
 
 .footer-menu-link {
